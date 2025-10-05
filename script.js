@@ -1,5 +1,8 @@
-function mincost(arr) {
-  if (!arr || arr.length <= 1) return 0;
+function mincost(arr)
+{ 
+//write your code here
+// return the min cost
+	if (!arr || arr.length <= 1) return 0;
 
   let cost = 0;
 
@@ -21,4 +24,7 @@ function mincost(arr) {
   }
 
   return cost;
+  
 }
+
+module.exports=mincost;
